@@ -21,17 +21,9 @@ El análisis integra tres fuentes de datos principales:
 
 ## Cómo Ejecutar el Notebook
 
-### Opción 1: Abrir directamente en Google Colab
-1. Haz clic en el archivo `.ipynb` dentro de este repositorio de GitHub.
-2. Copia la URL de la página.
-3. Ve a [Google Colab](https://colab.research.google.com/), selecciona la pestaña **GitHub**, pega la URL y presiona Enter.
+### Visualizar directamente en GitHub
+ 
+1. Haz clic en el archivo `.ipynb` descargado y subido a este repositorio (por ejemplo, `Proyecto6_Analisis_Telecomunicaciones.ipynb`).
+2. GitHub renderizará automáticamente las celdas de código, tablas y gráficos en pantalla.
 
-### Opción 2: Ejecución Local (Jupyter Notebook / JupyterLab)
-1. Asegúrate de tener instalado Python 3.x y Jupyter Notebook.
-2. Clona este repositorio o descarga el archivo `.ipynb`.
-3. Abre la terminal o consola de comandos en la carpeta del proyecto y ejecuta `jupyter notebook`.
 
-## Guía de Reproducción
-1. **Requisitos previos**: Tener instaladas las librerías `pandas`, `matplotlib`, `seaborn` y `numpy`.
-2. **Estructura de archivos**: Asegúrate de mantener la ruta correcta de los archivos `.csv` en la celda inicial de carga.
-3. **Ejecución secuencial**: Ejecuta las celdas en orden descendente (`Kernel` → `Restart & Run All`) para garantizar que las transformaciones se apliquen correctamente.
